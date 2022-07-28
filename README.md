@@ -21,7 +21,17 @@
   
   Tập dữ liệu chứa hai loại bài báo: tin tức giả (fake news) và tin tức thật (real news). Bộ dữ liệu này được thu thập từ các nguồn trong thế giới thực. Real news được thu thập từ các bài báo trung từ trang web tin tức Reuters.com (Reuterѕ là một hãng cung cấp thông tin ᴠà tin tức toàn cầu). Đối với fake news, chúng được thu thập từ nhiều nguồn gồm các bài đăng trên Twitter, bài báo trên các trang web không đáng tin cậy đã bị Politifact (một tổ chức kiểm tra sự thật ở Hoa Kỳ) và Wikipedia gắn cờ. Tập dữ liệu chứa các loại bài báo khác nhau về các chủ đề khác nhau. Tuy nhiên, phần lớn nội dung các bài báo tập trung vào các chủ đề chính trị và tin tức thế giới.
 
-4. Tham khảo
+4. Chú thích 
+
+ Dữ liệu khá lớn nên tôi đã nén nó lại về dạng .zip.
+ 
+ Về file code:
+ 
+  - FakeReal.ipynb: CBOW + LSTM
+  
+  - FakeNews_NB_SVM.ipynb: CBOW + một số thuật toán khác
+
+5. Tham khảo
 
   [1]Kaggle, "Fake and real news dataset," 2019. [Online]. Available: https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset. [Accessed 9 2021].
   
